@@ -4,6 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Map extends JPanel{
+    private int panelWidth;
+    private int panelHeight;
+    private int cellHeight;
+    private int cellWidth;
+
     Map() {
         setBackground(Color.WHITE);
     }
@@ -19,10 +24,20 @@ public class Map extends JPanel{
     }
 
     private void render(Graphics g){
+        panelWidth = getWidth();
+        panelHeight = getHeight();
+        cellWidth = panelWidth / 3;
+        cellHeight = panelHeight / 3;
+
         g.setColor(Color.BLACK);
-        g.drawLine(0, 0, 100, 100);
-        int panelWidth = getWidth();
-        int panelHeight = getHeight();
+        for (int h = 0; h < 3; h++){
+            int y = h * cellHeight;
+            g.drawLine(0, y, panelWidth, y);
+        }
+        for (int w = 0; w < 3; w++){
+            int x = w * cellHeight;
+            g.drawLine(x, 0, x, panelHeight);
+        }
     }
 }
 
