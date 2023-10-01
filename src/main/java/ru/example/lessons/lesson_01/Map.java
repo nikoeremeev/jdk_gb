@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.util.Random;
 
 public class Map extends JPanel {
@@ -61,13 +60,11 @@ public class Map extends JPanel {
     private boolean checkEndGame(int dot, int gameOverType) {
         if (checkWin(dot)) {
             this.gameOverType = gameOverType;
-            isGameOver = true;
             repaint();
             return true;
         }
         if (isMapFull()) {
             this.gameOverType = STATE_DRAW;
-            isGameOver = true;
             repaint();
             return true;
         }
