@@ -1,0 +1,35 @@
+23/11/02 21:24:09 : user_3: сообщение от пользователя 3
+23/11/02 21:24:15 : user_2: сообщение от пользователя 2
+23/11/02 21:24:15 : user_2: 
+23/11/02 21:24:25 : user_1: сообщение от пользователя 1
+23/11/02 21:24:25 : user_1: 
+23/11/02 21:24:25 : user_1: 
+23/11/02 21:24:30 : user_2: 
+23/11/02 21:24:30 : user_2: 
+23/11/02 21:24:30 : user_2: 
+23/11/02 21:24:30 : user_2: 
+23/11/02 21:26:17 : user_3: fileStream.write(argLine);
+23/11/02 21:26:23 : user_2: fileStream.write(argLine);
+23/11/02 21:26:23 : user_2: 
+23/11/02 21:26:36 : user_2: fileStream.write(argLine);
+23/11/02 21:26:36 : user_2: 
+23/11/02 21:26:36 : user_2: 
+23/11/02 21:26:44 : user_2: fileStream.write(argLine);
+23/11/02 21:26:44 : user_2: 
+23/11/02 21:26:44 : user_2: 
+23/11/02 21:26:44 : user_2: 
+23/11/02 21:26:50 : user_2: fileStream.write(argLine);
+23/11/02 21:26:50 : user_2: 
+23/11/02 21:26:50 : user_2: 
+23/11/02 21:26:50 : user_2: 
+23/11/02 21:26:50 : user_2: 
+23/11/02 21:27:28 : user_3: fileStream.write(argLine);
+23/11/02 21:27:35 : user_3: fileStream.write(argLine);
+23/11/02 21:27:35 : user_3: 
+23/11/02 21:27:41 : user_3: fileStream.write(argLine);
+23/11/02 21:27:41 : user_3: 
+23/11/02 21:27:41 : user_3: 
+23/11/02 21:31:35 : user_3:                 String msgText = dt + " : " + login + ": " + inputField.getText();                 try {                     logHandler.Write(msgText);                     outputField.append(msgText);                     outputField.append("\n");                 } catch (IOException e1) {                     e1.printStackTrace();                 }
+23/11/02 21:31:38 : user_3:                 String msgText = dt + " : " + login + ": " + inputField.getText();                 try {                     logHandler.Write(msgText);                     outputField.append(msgText);                     outputField.append("\n");                 } catch (IOException e1) {                     e1.printStackTrace();                 }
+23/11/02 21:31:43 : user_3:                 String msgText = dt + " : " + login + ": " + inputField.getText();                 try {                     logHandler.Write(msgText);                     outputField.append(msgText);                     outputField.append("\n");                 } catch (IOException e1) {                     e1.printStackTrace();                 }
+23/11/02 21:31:47 : user_2:                 String msgText = dt + " : " + login + ": " + inputField.getText();                 try {                     logHandler.Write(msgText);                     outputField.append(msgText);                     outputField.append("\n");                 } catch (IOException e1) {                     e1.printStackTrace();                 }

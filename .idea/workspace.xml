@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3266e1d0-bc4b-456a-9a05-4629a3651bfb" name="Changes" comment="add lesson 1">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/seminars/seminar_01/GameMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/seminars/seminar_01/GameSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/seminars/seminar_01/GameWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/seminars/seminar_01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/seminars/seminar_01_chat/ChatWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/seminars/seminar_01_chat/ConnectWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/seminars/seminar_01_chat/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/example/lessons/lesson_01/GameWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/example/lessons/lesson_01/GameWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/example/lessons/lesson_01/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/example/lessons/lesson_01/Map.java" afterDir="false" />
+    <list default="true" id="3266e1d0-bc4b-456a-9a05-4629a3651bfb" name="Changes" comment="add seminar 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/lessons/lesson_02/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/lessons/lesson_02/MainCanvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/lessons/lesson_02/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/example/lessons/lesson_02/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +49,26 @@
       <recent name="C:\Users\Admin\Java_projects\JDK_GB\jdk_gb\src\main\java\ru\example\seminars\seminar_01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.MainWindow">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.example.lessons.lesson_01.Main" />
       <module name="jdk_gb" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.example.lessons.lesson_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.example.lessons.lesson_02.MainWindow" />
+      <module name="jdk_gb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.example.lessons.lesson_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainWindow" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.ru.example.seminars.seminar_01.Main" />
         <item itemvalue="Application.Main" />
@@ -144,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695928282844</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add seminar 1">
+      <created>1696152865709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696152865709</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +174,8 @@
     <MESSAGE value="draw Line" />
     <MESSAGE value="draw cell for map" />
     <MESSAGE value="add lesson 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson 1" />
+    <MESSAGE value="add seminar 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add seminar 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
